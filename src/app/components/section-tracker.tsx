@@ -83,7 +83,7 @@ export function SectionTracker() {
   };
 
   return (
-    <nav className="fixed left-12 top-1/2 -translate-y-1/2 z-50 hidden lg:block">
+    <nav className="fixed left-8 xl:left-10 top-1/2 -translate-y-1/2 z-40 hidden xl:block">
       <div className="space-y-5">
         {sections.map((section) => {
           const isActive = activeSection === section.id;
