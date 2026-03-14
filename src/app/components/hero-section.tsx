@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Linkedin, Github, Mail, ArrowRight } from "lucide-react";
-import portraitImage from "figma:asset/ec252ee3d099e33adebf47374e1f6557464afd76.png";
+import portraitImage from "../../assets/ec252ee3d099e33adebf47374e1f6557464afd76.png";
 
 export function HeroSection() {
   return (
