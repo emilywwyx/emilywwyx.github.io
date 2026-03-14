@@ -6,7 +6,8 @@ const experiences = [
     company: "Baidu",
     role: "Full-Stack Developer Intern, Frontend Focus",
     period: "May 2025 – Sep 2025",
-    description: "Worked on Comate AI IDE, an enterprise AI-powered coding environment for developer workflows.",
+    description:
+      "Worked on Comate AI IDE, an enterprise AI-powered coding environment for developer workflows.",
     highlights: [
       "Delivered 30+ production React and TypeScript features and fixes",
       "Improved chat and editor workflows",
@@ -18,7 +19,8 @@ const experiences = [
     company: "Hewlett Packard Enterprise",
     role: "Software Engineer Intern",
     period: "May 2023 – Aug 2023",
-    description: "Worked on enterprise gateway systems and internal platform tooling.",
+    description:
+      "Worked on enterprise gateway systems and internal platform tooling.",
     highlights: [
       "Built Spring Boot REST APIs and MongoDB-backed configuration modules",
       "Implemented Redis caching and rate limiting",
@@ -64,13 +66,13 @@ export function ExperienceSection() {
                   {exp.description}
                 </p>
 
-                <ul className="space-y-2 pt-2">
+                <ul className="space-y-3 pt-2">
                   {exp.highlights.map((highlight, hIndex) => (
                     <li
                       key={hIndex}
-                      className="flex items-start gap-3 text-gray-700"
+                      className="flex items-start gap-3 text-gray-700 leading-relaxed"
                     >
-                      <span className="text-gray-400 mt-1.5">•</span>
+                      <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-400 shrink-0" />
                       <span>{highlight}</span>
                     </li>
                   ))}

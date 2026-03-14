@@ -32,7 +32,7 @@ export function PhilosophySection() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="flex items-start gap-4"
               >
-                <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-3 flex-shrink-0" />
+                <span className="mt-3 h-1.5 w-1.5 rounded-full bg-gray-400 shrink-0" />
                 <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
                   {point}
                 </p>
