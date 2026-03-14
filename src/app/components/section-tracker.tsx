@@ -106,7 +106,7 @@ export function SectionTracker() {
               
               {/* Active label only */}
               {isActive && (
-                <div className="absolute left-6 transition-opacity duration-500 ease-out">
+                <div className="absolute left-5 hidden 2xl:block">
                   <span className="text-sm text-gray-700 whitespace-nowrap">
                     {section.label}
                   </span>
