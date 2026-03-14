@@ -10,9 +10,11 @@ const projects = [
   },
   {
     title: "NYC Study Cafe Finder",
-    tech: ["Flask", "Python", "HTML", "CSS", "JavaScript", "SQLite"],
+    tech: ["React", "Vite", "TypeScript", "Flask", "Bootstrap"],
     description:
-      "Full-stack web app for discovering study-friendly cafes in New York City.",
+      "A live front-end demo of a larger full-stack project for discovering study-friendly cafes in New York City. The broader project also included Flask-based backend development and additional full-stack functionality.",
+    href: "https://emilywwyx.github.io/nyc-study-cafe-finder/",
+    status: "Live Demo",
   },
 ];
 
