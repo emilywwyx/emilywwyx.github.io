@@ -3,9 +3,21 @@ import { useInView } from "./use-in-view";
 
 const experiences = [
   {
+    company: "NextTier",
+    role: "Software Engineer Intern",
+    period: "Sep 2025 – Dec 2025",
+    description:
+      "Worked on a distributed routing platform for real-time navigation, with a focus on backend scalability, graph processing, and traffic-aware route computation.",
+    highlights: [
+      "Sustained ~1K QPS with sub-100ms P99 latency using Spring Boot, Docker, Kubernetes, and regional graph sharding",
+      "Built map ingestion and graph transformation pipelines using OpenStreetMap, S3, LMDB, and S2 indexing",
+      "Implemented telemetry and caching pipelines with AWS Kinesis and Redis for fast rerouting and lower routing CPU cost",
+    ],
+  },
+  {
     company: "Baidu",
     role: "Full-Stack Developer Intern, Frontend Focus",
-    period: "May 2025 – Sep 2025",
+    period: "May 2025 – Aug 2025",
     description: "Worked on Comate AI IDE, an enterprise AI-powered coding environment for developer workflows.",
     highlights: [
       "Delivered 30+ production React and TypeScript features and fixes",

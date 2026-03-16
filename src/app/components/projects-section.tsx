@@ -4,16 +4,16 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Distributed Real-Time Road Navigation System",
-    tech: ["Spring Boot", "Docker", "Kubernetes", "AWS", "Redis"],
+    title: "Airport Route Optimization System",
+    tech: ["Python", "Graph Algorithms", "Dijkstra", "BFS", "DFS"],
     description:
-      "Scalable routing platform with real-time telemetry and performance-aware backend design.",
-    href: "#",
-    status: "In Progress",
+      "A graph-based airport routing system that supports shortest path search, stop-constrained routing, and route optimization analysis. Built with custom data structures and showcased through an interactive portfolio demo.",
+    href: "https://airport-route-system-demo.vercel.app",
+    status: "Live Demo",
   },
   {
     title: "NYC Study Cafe Finder",
-    tech: ["React", "Vite", "TypeScript", "Flask", "Bootstrap"],
+    tech: ["React", "Vite", "TypeScript", "Flask", "Bootstrap", "Ajax", "JSON"],
     description:
       "A live front-end demo of a larger full-stack project for discovering study-friendly cafes in New York City. The broader project also included Flask-based backend development and additional full-stack functionality.",
     href: "https://emilywwyx.github.io/nyc-study-cafe-finder/",
