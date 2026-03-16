@@ -3,20 +3,24 @@ import { useInView } from "./use-in-view";
 
 const skillCategories = [
   {
+    category: "Languages",
+    skills: ["Java", "C/C++", "Python", "SQL", "JavaScript", "TypeScript"],
+  },
+  {
     category: "Frontend",
-    skills: ["React", "TypeScript", "JavaScript", "HTML", "CSS"],
+    skills: ["React", "HTML", "CSS", "Bootstrap", "jQuery", "Ajax"],
   },
   {
     category: "Backend",
-    skills: ["Java", "Spring Boot", "REST APIs", "Python", "SQL", "Flask"],
+    skills: ["Spring Boot", "REST APIs", "Flask", "MVC"],
   },
   {
-    category: "Data/Storage",
-    skills: ["MongoDB", "Redis", "MySQL", "SQLite"],
+    category: "Data & Storage",
+    skills: ["MySQL", "MongoDB", "Redis", "SQLite", "NoSQL", "JSON", "XML"],
   },
   {
-    category: "Tools",
-    skills: ["Docker", "Kubernetes", "AWS", "Git", "GitHub"],
+    category: "Cloud & Tools",
+    skills: ["AWS", "EC2", "S3", "Docker", "Kubernetes", "Linux", "Git", "GitHub"],
   },
   {
     category: "Concepts",
@@ -25,6 +29,9 @@ const skillCategories = [
       "UI/UX",
       "Performance Optimization",
       "System Design",
+      "Object-Oriented Programming",
+      "Data Structures",
+      "Advanced Algorithms",
     ],
   },
 ];
