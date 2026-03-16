@@ -1,11 +1,22 @@
+# Emily Wang Portfolio
 
-  # Premium Personal Portfolio Website
+A personal portfolio website showcasing my software engineering experience, projects, and technical background.
 
-  This is a code bundle for Premium Personal Portfolio Website. The original project is available at https://www.figma.com/design/5WVBZf1dRLZ6tymhGp0iDZ/Premium-Personal-Portfolio-Website.
+## Overview
 
-  ## Running the code
+This site brings together my work experience, selected projects, and core technical skills in one place. It is designed to serve as a simple, professional hub for recruiters, collaborators, and anyone interested in my work.
 
-  Run `npm i` to install the dependencies.
+## Built With
 
-  Run `npm run dev` to start the development server.
-  
+- React
+- TypeScript
+- Vite
+- CSS
+
+## Website
+
+[https://emilywwyx.github.io/](https://emilywwyx.github.io/)
+
+## Author
+
+Emily Wang
