@@ -3,7 +3,7 @@ import { useInView } from "./use-in-view";
 
 const experiences = [
   {
-    company: "NextTier",
+    company: "VortexNet",
     role: "Software Engineer Intern",
     period: "Sep 2025 – Dec 2025",
     description:
